@@ -1,8 +1,10 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name:
+      'Almacenamiento, transporte interno y gestión documental de productos químicos.',
+    Description:
+      'Orientado a la gestión segura y documentada de productos químicos, este componente fortalece las competencias para el almacenamiento según criterios de compatibilidad, el transporte interno conforme a procedimientos establecidos y la documentación del proceso dentro del Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST) de la organización.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +14,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +37,82 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Almacenamiento de productos químicos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Sitio de almacenamiento',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Operación del sitio de almacenamiento',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Separación y almacenamiento de productos químicos',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Condiciones seguras de almacenamiento',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Emergencias en el almacenamiento',
+            hash: 't_1_5',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Transporte interno de productos químicos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Condiciones del área de manipulación',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Condiciones de transporte interno',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Procedimientos de transporte interno',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Sistema de gestión y documentación del proceso',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo:
+              'Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST)',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Obligaciones de los actores del SG-SST',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Documentación del proceso de manipulación',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
