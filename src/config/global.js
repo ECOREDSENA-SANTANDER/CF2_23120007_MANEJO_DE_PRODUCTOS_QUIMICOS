@@ -134,11 +134,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -160,26 +155,121 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
-    },
-  ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Administradora de Riesgos Laborales (ARL)',
+      significado:
+        'Entidad que asesora técnicamente en prevención de riesgos laborales y atiende accidentes de trabajo.',
+    },
+    {
+      termino: 'Almacenamiento',
+      significado:
+        'Acción de guardar productos químicos en condiciones técnicas específicas que garanticen seguridad y trazabilidad.',
+    },
+    {
+      termino: 'Compatibilidad química',
+      significado:
+        'Capacidad de dos o más sustancias de almacenarse juntas sin generar reacciones peligrosas.',
+    },
+    {
+      termino: 'Cubeto de contención',
+      significado:
+        'Sistema de barrera física que retiene derrames de productos químicos evitando su dispersión.',
+    },
+    {
+      termino: 'Elementos de Protección Colectiva (EPC)',
+      significado:
+        'Dispositivos que protegen a todos los trabajadores del área sin requerir acción individual.',
+    },
+    {
+      termino: 'Elementos de Protección Personal (EPP)',
+      significado:
+        'Equipos o dispositivos que protegen al trabajador de riesgos específicos durante su labor.',
+    },
+    {
+      termino: 'Gas comprimido',
+      significado:
+        'Gas almacenado a presión en cilindros que requiere condiciones especiales de manipulación y transporte.',
+    },
+    {
+      termino: 'Hoja de Datos de Seguridad (HDS)',
+      significado:
+        'Documento técnico con información sobre propiedades, peligros y manejo seguro de productos químicos.',
+    },
+    {
+      termino: 'Incompatibilidad química',
+      significado:
+        'Condición en la que dos sustancias no deben contactar porque generan reacciones violentas o peligrosas.',
+    },
+    {
+      termino: 'Inflamable',
+      significado:
+        'Sustancia que se enciende fácilmente y mantiene la combustión con facilidad a temperatura ambiente.',
+    },
+    {
+      termino: 'Matriz de compatibilidad',
+      significado:
+        'Herramienta visual que indica qué grupos de productos químicos pueden almacenarse juntos de forma segura.',
+    },
+    {
+      termino: 'Oxidante',
+      significado:
+        'Sustancia que favorece la combustión al liberar oxígeno o aceptar electrones en reacciones químicas.',
+    },
+    {
+      termino: 'PEPS',
+      significado:
+        'Principio de rotación Primero en Entrar, Primero en Salir que evita vencimiento de productos almacenados.',
+    },
+    {
+      termino: 'PHVA',
+      significado:
+        'Ciclo de mejora continua: Planificar, Hacer, Verificar, Actuar que estructura el sistema de gestión.',
+    },
+    {
+      termino: 'Producto químico peligroso',
+      significado:
+        'Sustancia que por sus propiedades fisicoquímicas representa riesgos para salud, seguridad o medio ambiente.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Congreso de la República de Colombia. (2012). Ley 1562 de 2012. Por la cual se modifica el sistema de riesgos laborales y se dictan otras disposiciones en materia de salud ocupacional. Diario Oficial n.º 48488.',
+      link: '',
+    },
+    {
+      referencia:
+        'Consejo Colombiano de Seguridad. (s.f.). CISPROQUIM - Centro de Información de Seguridad sobre Productos Químicos.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio del Trabajo. (2015). Decreto 1072 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo. Diario Oficial n.º 49523.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio del Trabajo. (2019). Resolución 0312 de 2019. Por la cual se definen los estándares mínimos del Sistema de Gestión de la Seguridad y Salud en el Trabajo SG-SST.',
+      link: '',
+    },
+    {
+      referencia:
+        'Naciones Unidas. (2025). Sistema Globalmente Armonizado de Clasificación y Etiquetado de Productos Químicos (SGA) (Rev. 11).',
+      link: '',
+    },
+    {
+      referencia:
+        'National Research Council. (2011). Prudent Practices in the Laboratory: Handling and Management of Chemical Hazards (Updated Edition). National Academies Press.',
+      link: '',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje. (2016). Manejo de productos químicos: Sitio de manipulación, transporte interno y sistemas de gestión. Centro de Gestión Industrial.',
       link: '',
     },
   ],
+
   creditos: [
     {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
