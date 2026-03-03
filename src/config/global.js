@@ -1,7 +1,7 @@
 export default {
   global: {
     Name:
-      'Almacenamiento, transporte interno y gestión documental de productos químicos.',
+      'Almacenamiento, transporte interno y gestión documental de productos químicos',
     Description:
       'Orientado a la gestión segura y documentada de productos químicos, este componente fortalece las competencias para el almacenamiento según criterios de compatibilidad, el transporte interno conforme a procedimientos establecidos y la documentación del proceso dentro del Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST) de la organización.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
