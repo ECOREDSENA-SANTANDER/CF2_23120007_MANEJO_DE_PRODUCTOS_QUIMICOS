@@ -12,7 +12,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/Tema1/img01.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 El manejo seguro de cualquier producto químico exige un conocimiento previo sobre su composición, los riesgos que conlleva y su potencial impacto en la salud y el entorno. Para dar respuesta a estos interrogantes, se utiliza un sistema de identificación global que estandariza la comunicación de peligros de forma clara, garantizando que la información sea comprensible en cualquier industria, país o idioma, antes de proceder a su manipulación, almacenamiento o transporte.
+          p.mb-0 El almacenamiento de productos químicos es uno de los procesos más críticos en cualquier organización que manipule o utilice este tipo de sustancias. Un sitio de almacenamiento mal diseñado, un procedimiento de recepción incompleto o una separación incorrecta de productos incompatibles pueden desencadenar accidentes graves: incendios, explosiones, derrames o intoxicaciones. Por esta razón, las condiciones técnicas del sitio, los procedimientos operativos y los criterios de separación deben responder a estándares técnicos precisos, sustentados en la normativa nacional e internacional vigente.
             br
             br
 
@@ -28,7 +28,7 @@
         .col-lg-10.col-md-9
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 1.
-            span #[em Almacén de productos químicos]
+            span Almacén de productos químicos
           img(src='@/assets/curso/Tema1/fig1.png', alt='Almacén industrial de productos químicos con estanterías metálicas de tres niveles, bidones en palés de madera, piso de concreto limpio e iluminación cenital.')
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -243,36 +243,36 @@
         table
           thead
             tr
-              th Grupo
+              th.w-25 Grupo
               th Tipo de sustancia
               th Consideraciones
           tbody
             tr
-              td 1. Inflamables
+              td.text-left 1. Inflamables
               td.text-left Líquidos, sólidos y gases inflamables
               td.text-left Almacenar lejos de fuentes de ignición y oxidantes. Ventilación reforzada.
             tr
-              td 2. Oxidantes
+              td.text-left 2. Oxidantes
               td.text-left Peróxidos, nitratos, cloratos
               td.text-left Separar de inflamables y materias orgánicas. Riesgo de incendio intenso.
             tr
-              td 3. Tóxicos
+              td.text-left 3. Tóxicos
               td.text-left Pesticidas, disolventes clorados, cianuros
               td.text-left Control de acceso estricto. Ventilación adecuada. Recipientes herméticos.
             tr
-              td 4. Corrosivos
+              td.text-left 4. Corrosivos
               td.text-left Ácidos y bases concentradas
               td.text-left Separar ácidos de bases. Recipientes resistentes. Cubetos de contención.
             tr
-              td 5. Reactivos con agua
+              td.text-left 5. Reactivos con agua
               td.text-left Metales alcalinos, carburos
               td.text-left Almacenar en zonas secas. Prohibido uso de agua para extinción.
             tr
-              td 6. Explosivos
+              td.text-left 6. Explosivos
               td.text-left Peróxidos orgánicos, azidas
               td.text-left Almacenamiento especial. Mínimas cantidades. Acceso muy restringido.
             tr
-              td 7. Gases comprimidos
+              td.text-left 7. Gases comprimidos
               td.text-left Gas Licuado de Petróleo (GLP), nitrógeno, oxígeno
               td.text-left Posición vertical asegurada. Temperatura controlada. Alejados de calor.
       
@@ -351,7 +351,7 @@
               td ✓
       
       .cajon.color-primario.p-4.mb-4(data-aos="fade-right")
-        p Importante: la matriz anterior es una guía general. Para cada par de productos específicos, siempre debe consultarse la Ficha de Datos de Seguridad (FDS/MSDS) de cada uno y la Sección 10 (Reactividad) para confirmar la compatibilidad real. Nunca se debe almacenar según la intuición o la apariencia física de los productos.
+        p #[b Importante:] la matriz anterior es una guía general. Para cada par de productos específicos, siempre debe consultarse la HDS de cada uno y la reactividad de la sustancia (sección 10) para confirmar la compatibilidad real. Nunca se debe almacenar según la intuición o la apariencia física de los productos.
       
       separador
       #t_1_4.titulo-segundo.mb-5(data-aos="zoom-in-left")
@@ -393,7 +393,7 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 3.
             span Elementos de protección personal para manejo de productos químicos
-          img(src='@/assets/curso/Tema1/fig3.png' alt='')
+          img(src='@/assets/curso/Tema1/fig3.png' alt='Trabajador con elementos de protección personal para el manejo de productos químicos que incluye: traje de cuerpo completo desechable, careta facial con protección para la cabeza y guantes.')
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-md-11.col-lg-12.col-12
