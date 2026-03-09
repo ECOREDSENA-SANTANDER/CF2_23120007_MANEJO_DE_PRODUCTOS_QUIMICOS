@@ -19,10 +19,10 @@ export default {
       tema: 'manejo inteligente de químicos y prevención de riesgos.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar el nivel de comprensión de los conceptos fundamentales asociados al manejo inteligente de productos químicos y la implementación de estrategias para la prevención de riesgos laborales y ambientales.',
+        '<b>Objetivo:</b> verificar la comprensión de los conceptos clave sobre almacenamiento, transporte interno y gestión documental de productos químicos mediante la aplicación de los conocimientos adquiridos.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!.',
-      titulo_reprobado: 'VUELVA A INTENTARLO.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
@@ -694,7 +694,7 @@ export default {
       mensaje_final_aprobado:
         'Ha superado la actividad y demuestra sólidos conocimientos sobre el almacenamiento, transporte interno y gestión documental de productos químicos, así como su comprensión dentro del Sistema de Gestión de Seguridad y Salud en el Trabajo.',
       mensaje_final_reprobado:
-        'Mensaje cuando el porcentaje de respuestas correctas es inferior al 70 %	No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
