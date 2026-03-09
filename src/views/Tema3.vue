@@ -65,24 +65,24 @@
           table
             thead
               tr
-                th Fase
+                th.w-25 Fase
                 th En el contexto químico
                 th Ejemplos de actividades
             tbody
               tr
-                td Planificar (P)
+                td.text-left Planificar (P)
                 td.text-left Definir objetivos y procedimientos para el manejo seguro de los químicos presentes en la organización.
-                td.text-left Elaborar el inventario de productos químicos. Actualizar FDS. Diseñar el plan de separación del almacén. Planificar capacitaciones.
+                td.text-left Elaborar el inventario de productos químicos. Actualizar HDS. Diseñar el plan de separación del almacén. Planificar capacitaciones.
               tr
-                td Hacer (H)
+                td.text-left Hacer (H)
                 td.text-left Ejecutar los procedimientos planificados para el almacenamiento, transporte y documentación.
                 td.text-left Realizar inspecciones del almacén. Ejecutar traslados según procedimiento. Llevar registros de movimientos de inventario.
               tr
-                td Verificar (V)
+                td.text-left Verificar (V)
                 td.text-left Medir los resultados y comparar con los objetivos planificados.
                 td.text-left Auditorías internas del almacén. Análisis de incidentes con productos químicos. Revisión de indicadores de accidentalidad.
               tr
-                td Actuar (A)
+                td.text-left Actuar (A)
                 td.text-left Implementar mejoras basadas en los hallazgos de la verificación.
                 td.text-left Actualizar procedimientos. Reforzar capacitaciones. Mejorar señalización. Ajustar el plan de separación de productos.
 
@@ -143,7 +143,7 @@
 
             .row.justify-content-center.align-items-center
               .col-lg-6.mb-4.mb-md-0.col-12
-                p Asegurar que todos los productos químicos presentes en el lugar de trabajo cuenten con su FDS actualizada y que esta esté disponible para los trabajadores.
+                p Asegurar que todos los productos químicos presentes en el lugar de trabajo cuenten con su HDS actualizada y que esta esté disponible para los trabajadores.
               .col-lg-5.col-md-8
                 figure
                   img(src='@/assets/curso/Tema3/img04.png', alt='')
@@ -267,34 +267,34 @@
           table
             thead
               tr
-                th Tipo de documento
+                th.w-25 Tipo de documento
                 th Descripción
                 th Ejemplo en manejo químico
             tbody
               tr
-                td.text-center Política
-                td.text-center Declaración de intención y compromiso de la alta dirección.
-                td.text-center Política de gestión de productos químicos peligrosos.
+                td.text-left Política
+                td.text-left Declaración de intención y compromiso de la alta dirección.
+                td.text-left Política de gestión de productos químicos peligrosos.
               tr
-                td.text-center Procedimiento
-                td.text-center Descripción paso a paso de cómo realizar una actividad.
-                td.text-center Procedimiento de almacenamiento de ácidos. Procedimiento de trasvase de solventes.
+                td.text-left Procedimiento
+                td.text-left Descripción paso a paso de cómo realizar una actividad.
+                td.text-left Procedimiento de almacenamiento de ácidos. Procedimiento de trasvase de solventes.
               tr
-                td.text-center Instructivo
-                td.text-center Descripción detallada de una tarea específica y operativa.
-                td.text-center Instructivo para el uso del extintor CO₂ en el almacén.
+                td.text-left Instructivo
+                td.text-left Descripción detallada de una tarea específica y operativa.
+                td.text-left Instructivo para el uso del extintor CO₂ en el almacén.
               tr
-                td.text-center Formato
-                td.text-center Documento que captura evidencia de la ejecución de una actividad. Una vez diligenciado el formato, este se convierte en un registro.
-                td.text-center Registro de inspección diaria del almacén. Control de ingreso y egreso de productos.
+                td.text-left Formato
+                td.text-left Documento que captura evidencia de la ejecución de una actividad. Una vez diligenciado el formato, este se convierte en un registro.
+                td.text-left Registro de inspección diaria del almacén. Control de ingreso y egreso de productos.
               tr
-                td.text-center Plan
-                td.text-center Documento que define objetivos, acciones, responsables y cronograma.
-                td.text-center Plan de emergencias del almacén. Plan de capacitación en manejo de productos químicos.
+                td.text-left Plan
+                td.text-left Documento que define objetivos, acciones, responsables y cronograma.
+                td.text-left Plan de emergencias del almacén. Plan de capacitación en manejo de productos químicos.
               tr
-                td.text-center Protocolo
-                td.text-center Conjunto de instrucciones para una situación específica de riesgo.
-                td.text-center Protocolo de atención a derrames. Protocolo de respuesta a intoxicaciones.
+                td.text-left Protocolo
+                td.text-left Conjunto de instrucciones para una situación específica de riesgo.
+                td.text-left Protocolo de atención a derrames. Protocolo de respuesta a intoxicaciones.
 
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -303,7 +303,7 @@
           img.w-card-icon(src="@/assets/curso/Tema1/ico.svg")
           h3.bg4.py-2.w-card-text Registros del proceso de manipulación
 
-    p.mb-4 Los siguientes registros son fundamentales para la trazabilidad y el control del proceso de manipulación de productos químicos y forman parte de las evidencias que el sistema de gestión de seguridad y salud en el trabajo debe mantener y controlar:
+    p.mb-4 Los siguientes registros son fundamentales para la trazabilidad y el control del proceso de manipulación de productos químicos y forman parte de las evidencias que el SG-SST debe mantener y controlar: 
 
     ImagenInfografica.color-acento-botones.mb-4
       template(v-slot:imagen)
@@ -324,7 +324,7 @@
       .tarjeta.row.img-infog.bg1.align-items-center.p-4(numero="1" x="13%" y="30%")
         .col-md-12.col-12.px-lg-4.px-3.py-1.contenido
           h5 Inventario actualizado de productos químicos
-          p lista de todos los productos presentes en la organización con su clasificación de peligro, cantidad, ubicación en el almacén y estado de las HDS.
+          p Lista de todos los productos presentes en la organización con su clasificación de peligro, cantidad, ubicación en el almacén y estado de las HDS.
       .tarjeta.row.img-infog.bg1.align-items-center.p-4(numero="4" x="4%" y="73%")
         .col-md-12.col-12.px-lg-4.px-3.py-1.contenido
           h5 Registro de incidentes y accidentes
@@ -353,7 +353,7 @@
               p.mb-0 #[b Producto trasladado:] nombre comercial, nombre químico y número CAS si aplica.
             li.d-flex
               i.fas.fa-flask
-              p.mb-0 #[b Clasificación de peligro (SGA):] clase y categoría de peligro según la FDS.
+              p.mb-0 #[b Clasificación de peligro (SGA):] clase y categoría de peligro según la HDS.
             li.d-flex
               i.fas.fa-flask
               p.mb-0 #[b Cantidad trasladada:] volumen o masa con unidades.

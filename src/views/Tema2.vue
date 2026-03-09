@@ -117,7 +117,7 @@
           
           .row
               .col-md-9.mb-4.mb-md-0
-                h3 EPP requerido según FDS
+                h3 EPP requerido según HDS
                 p Mínimo: guantes, gafas y calzado de seguridad. Elementos adicionales según peligro: delantal, protección respiratoria, traje de protección química.
               .col-md-3
                 figure
@@ -294,22 +294,22 @@
             th Condiciones especiales de transporte
         tbody
           tr
-            td Líquidos inflamables (clase de peligro 3 SGA)
+            td.text-left Líquidos inflamables (clase de peligro 3 SGA).
             td.text-left Eliminar fuentes de ignición en la ruta. No usar equipos generadores de chispas. Ventilación del área previa al traslado.
           tr
-            td Ácidos y bases corrosivas
+            td.text-left Ácidos y bases corrosivas.
             td.text-left Contenedor secundario obligatorio. EPP resistente a corrosivos (guantes de nitrilo o neopreno, gafas herméticas, delantal). Neutralizante disponible.
           tr
-            td Sustancias tóxicas agudas
-            td.text-left Protección respiratoria según concentración de vapor (consultar FDS). Minimizar el tiempo de exposición. Evitar traslados en áreas concurridas.
+            td.text-left Sustancias tóxicas agudas.
+            td.text-left Protección respiratoria según concentración de vapor (consultar HDS). Minimizar el tiempo de exposición. Evitar traslados en áreas concurridas.
           tr
-            td Gases comprimidos (cilindros)
+            td.text-left Gases comprimidos (cilindros).
             td.text-left Cilindros siempre en posición vertical, asegurados en carro especial. Protectores de válvula puestos. Nunca en posición horizontal ni rodando.
           tr
-            td Sustancias reactivas con agua
+            td.text-left Sustancias reactivas con agua.
             td.text-left Verificar que la ruta no tenga fuentes de agua (tuberías, duchas, lavaojos). EPP impermeable. Extintor de polvo seco disponible.
           tr
-            td Criogénicos (nitrógeno líquido, CO₂ líquido)
+            td.text-left Criogénicos (nitrógeno líquido, CO₂ líquido).
             td.text-left Recipientes especializados Dewar. Verificar presurización. Riesgo de quemaduras criogénicas. Protección térmica y facial.
 
 
@@ -319,7 +319,7 @@
         .tarjeta.clr--pink.p-4.rounded-0.h-100.color-primario
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-botones(
-            texto="Podcast: Mover productos químicos sin mover los riesgos"
+            texto="Pódcast: Mover productos químicos sin mover los riesgos"
             :audio="require('@/assets/curso/Tema2/podcast.svg')"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

@@ -407,7 +407,7 @@
         .col-lg-12
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 3.
-            span Secciones clave de la FDS para el almacenamiento de productos químicos
+            span Secciones clave de la HDS para el almacenamiento de productos químicos
 
       .tabla-a.color-primario.mb-4(data-aos="fade-right")
         table
@@ -417,19 +417,19 @@
               th Contenido relevante para almacenamiento
           tbody
             tr
-              td Sección 2. Identificación de peligros
+              td.text-left Sección 2. Identificación de peligros
               td.text-left Clasificación del producto y pictogramas SGA. Base para la zonificación del almacén.
             tr
-              td Sección 7. Manipulación y almacenamiento
+              td.text-left Sección 7. Manipulación y almacenamiento
               td.text-left Condiciones específicas de temperatura, humedad, contenedores recomendados y restricciones.
             tr
-              td Sección 8. Controles de exposición/EPP
+              td.text-left Sección 8. Controles de exposición/EPP
               td.text-left EPP requerido para ingresar al área de almacenamiento.
             tr
-              td Sección 10. Reactividad e inestabilidad
+              td.text-left Sección 10. Reactividad e inestabilidad
               td.text-left Materiales incompatibles con los que no debe almacenarse el producto.
             tr
-              td Sección 13. Consideraciones de eliminación
+              td.text-left Sección 13. Consideraciones de eliminación
               td.text-left Gestión de residuos y recipientes vacíos.
 
       .cajon.color-primario.p-4.mb-4
@@ -511,27 +511,27 @@
             tr
               th Tipo de extintor
               th Clase de fuego
-              th Usos / Restricciones
+              th Usos / restricciones
           tbody
             tr
-              td Agua
-              td Clase A (sólidos)
+              td.text-left Agua
+              td.text-left Clase A (sólidos)
               td.text-left No usar en fuegos eléctricos, metales reactivos ni líquidos inflamables.
             tr
-              td Espuma AFFF
-              td Clases A y B
+              td.text-left Espuma AFFF
+              td.text-left Clases A y B
               td.text-left Efectivo en líquidos inflamables (gasolina, diésel, solventes). No apto para metales o fuegos eléctricos.
             tr
-              td CO₂
-              td Clases B y C
+              td.text-left CO₂
+              td.text-left Clases B y C
               td.text-left Eficaz en equipos eléctricos y líquidos inflamables. No deja residuos.
             tr
-              td Polvo químico ABC
-              td Clases A, B y C
+              td.text-left Polvo químico ABC
+              td.text-left Clases A, B y C
               td.text-left Versátil y multipropósito. Puede dañar equipos. No usar en espacios confinados.
             tr
-              td Agente limpio (Halón sustituto)
-              td B y C
+              td.text-left Agente limpio (Halón sustituto)
+              td.text-left B y C
               td.text-left Para equipos sensibles y salas de cómputo. Menor impacto ambiental.
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -550,7 +550,7 @@
                 figure
                   img(src='@/assets/curso/Tema1/001.svg', alt='Texto que describa la imagen')
             h4.text-center Exposición cutánea
-            p.text-small.mb-0.text-center Retirar la ropa contaminada y lavar abundantemente la zona afectada con agua fría durante mínimo 15-20 minutos. Cubrir con apósito estéril y trasladar a atención médica.
+            p.text-small.mb-0.text-izq Retirar la ropa contaminada y lavar abundantemente la zona afectada con agua fría durante mínimo 15-20 minutos. Cubrir con apósito estéril y trasladar a atención médica.
 
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
           .tarjeta--boton.color-primario.p-4
@@ -559,7 +559,7 @@
                 figure
                   img(src='@/assets/curso/Tema1/003.svg', alt='Texto que describa la imagen')
             h3.text-center Exposición ocular
-            p.text-small.mb-0.text-center Irrigar el ojo afectado con agua limpia o solución salina durante mínimo 15 a 20 minutos, manteniendo los párpados abiertos. No frotar. Trasladar inmediatamente a urgencias.
+            p.text-small.mb-0.text-izq Irrigar el ojo afectado con agua limpia o solución salina durante mínimo 15 a 20 minutos, manteniendo los párpados abiertos. No frotar. Trasladar inmediatamente a urgencias.
 
         .col-sm-6.col-lg-3.mb-4.mb-sm-0
           .tarjeta--boton.color-primario.p-4
@@ -568,7 +568,7 @@
                 figure
                   img(src='@/assets/curso/Tema1/004.svg', alt='Texto que describa la imagen')
             h3.text-center Inhalación
-            p.text-small.mb-0.text-center Retirar a la persona afectada hacia una zona ventilada de inmediato. Si hay inconsciencia o dificultad respiratoria, llamar a servicios de emergencia y aplicar RCP si está capacitado para ello.
+            p.text-small.mb-0.text-izq Retirar a la persona afectada hacia una zona ventilada de inmediato. Si hay inconsciencia o dificultad respiratoria, llamar a servicios de emergencia y aplicar RCP si está capacitado para ello.
         
         .col-sm-6.col-lg-3.mb-4.mb-sm-0
           .tarjeta--boton.color-primario.p-4
@@ -577,7 +577,7 @@
                 figure
                   img(src='@/assets/curso/Tema1/005.svg', alt='Texto que describa la imagen')
             h3.text-center Ingestión accidental 
-            p.text-small.mb-0.text-center No inducir el vómito a menos que la FDS lo indique explícitamente. Llamar a la línea de toxicología o servicios de emergencia y proporcionar la FDS del producto al personal médico.
+            p.text-small.mb-0.text-izq No inducir el vómito a menos que la HDS lo indique explícitamente. Llamar a la línea de toxicología o servicios de emergencia y proporcionar la HDS del producto al personal médico.
 
       p Para profundizar sobre la aplicación práctica de los protocolos de atención integral a víctimas de exposición química en situaciones reales de emergencia, se recomienda explorar el siguiente video: 
 
@@ -589,7 +589,7 @@
           figcaption Video. Atención integral de urgencias a víctimas de ataque con agentes químicos
 
       .cajon.color-primario.p-4(data-aos="fade-right")
-        p #[b Nota:] ante cualquier emergencia con productos químicos, la Ficha de Datos de Seguridad (Sección 4, primeros auxilios) es la fuente primaria de instrucciones específicas para cada producto. Siempre debe estar disponible en el sitio de almacenamiento y de uso.
+        p #[b Nota:] ante cualquier emergencia con productos químicos, la Hoja de Datos de Seguridad (Sección 4, primeros auxilios) es la fuente primaria de instrucciones específicas para cada producto. Siempre debe estar disponible en el sitio de almacenamiento y de uso.
 
 
 
