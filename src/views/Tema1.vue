@@ -417,19 +417,19 @@
               th Contenido relevante para almacenamiento
           tbody
             tr
-              td.text-left Sección 2. Identificación de peligros
+              td.text-left Sección 2. Identificación de peligros.
               td.text-left Clasificación del producto y pictogramas SGA. Base para la zonificación del almacén.
             tr
-              td.text-left Sección 7. Manipulación y almacenamiento
+              td.text-left Sección 7. Manipulación y almacenamiento.
               td.text-left Condiciones específicas de temperatura, humedad, contenedores recomendados y restricciones.
             tr
-              td.text-left Sección 8. Controles de exposición/EPP
+              td.text-left Sección 8. Controles de exposición/EPP.
               td.text-left EPP requerido para ingresar al área de almacenamiento.
             tr
-              td.text-left Sección 10. Reactividad e inestabilidad
+              td.text-left Sección 10. Reactividad e inestabilidad.
               td.text-left Materiales incompatibles con los que no debe almacenarse el producto.
             tr
-              td.text-left Sección 13. Consideraciones de eliminación
+              td.text-left Sección 13. Consideraciones de eliminación.
               td.text-left Gestión de residuos y recipientes vacíos.
 
       .cajon.color-primario.p-4.mb-4
@@ -518,7 +518,7 @@
               td.text-left Clase A (sólidos)
               td.text-left No usar en fuegos eléctricos, metales reactivos ni líquidos inflamables.
             tr
-              td.text-left Espuma AFFF
+              td.text-left Espuma 3F (espuma libre de flúor) 
               td.text-left Clases A y B
               td.text-left Efectivo en líquidos inflamables (gasolina, diésel, solventes). No apto para metales o fuegos eléctricos.
             tr
