@@ -65,9 +65,9 @@
           table
             thead
               tr
-                th.w-25 Fase
-                th En el contexto químico
-                th Ejemplos de actividades
+                th.w-25.text-left Fase
+                th.text-left En el contexto químico
+                th.text-left Ejemplos de actividades
             tbody
               tr
                 td.text-left Planificar (P)
@@ -267,9 +267,9 @@
           table
             thead
               tr
-                th.w-25 Tipo de documento
-                th Descripción
-                th Ejemplo en manejo químico
+                th.text-left.w-25 Tipo de documento
+                th.text-left Descripción
+                th.text-left Ejemplo en manejo químico
             tbody
               tr
                 td.text-left Política

@@ -290,11 +290,11 @@
       table
         thead
           tr
-            th Tipo de sustancia
-            th Condiciones especiales de transporte
+            th.text-left Tipo de sustancia
+            th.text-left Condiciones especiales de transporte
         tbody
           tr
-            td.text-left Líquidos inflamables (clase de peligro 3 SGA).
+            td.text-left Líquidos inflamables (clase de peligro 3 según SGA).
             td.text-left Eliminar fuentes de ignición en la ruta. No usar equipos generadores de chispas. Ventilación del área previa al traslado.
           tr
             td.text-left Ácidos y bases corrosivas.

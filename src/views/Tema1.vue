@@ -243,9 +243,9 @@
         table
           thead
             tr
-              th.w-25 Grupo
-              th Tipo de sustancia
-              th Consideraciones
+              th.w-25.text-left Grupo
+              th.text-left Tipo de sustancia
+              th.text-left Consideraciones
           tbody
             tr
               td.text-left 1. Inflamables
@@ -295,15 +295,15 @@
         table
           thead
             tr
-              th Grupo
-              th Inflamables
-              th Oxidantes
-              th Tóxicos
-              th Corrosivos
-              th Reactivos con agua
+              th.text-left Grupo
+              th.text-left Inflamables
+              th.text-left Oxidantes
+              th.text-left Tóxicos
+              th.text-left Corrosivos
+              th.text-left Reactivos con agua
           tbody
             tr
-              td Inflamables
+              td.text-left Inflamables
               td ✓
               td X
               td 
@@ -312,7 +312,7 @@
                 span.icono-advertencia 
               td X
             tr
-              td Oxidantes
+              td.text-left Oxidantes
               td X
               td ✓
               td 
@@ -321,7 +321,7 @@
                 span.icono-advertencia 
               td X
             tr
-              td Tóxicos
+              td.text-left Tóxicos
               td 
                 span.icono-advertencia 
               td 
@@ -332,7 +332,7 @@
               td 
                 span.icono-advertencia 
             tr
-              td Corrosivos
+              td.text-left Corrosivos
               td 
                 span.icono-advertencia 
               td
@@ -342,7 +342,7 @@
               td ✓
               td X
             tr
-              td Reactivos con agua
+              td.text-left Reactivos con agua
               td X
               td X
               td 
@@ -413,8 +413,8 @@
         table
           thead
             tr
-              th Sección
-              th Contenido relevante para almacenamiento
+              th.text-left Sección
+              th.text-left Contenido relevante para almacenamiento
           tbody
             tr
               td.text-left Sección 2. Identificación de peligros.
@@ -509,9 +509,9 @@
         table
           thead
             tr
-              th Tipo de extintor
-              th Clase de fuego
-              th Usos / restricciones
+              th.text-left Tipo de extintor
+              th.text-left Clase de fuego
+              th.text-left Usos / restricciones
           tbody
             tr
               td.text-left Agua
