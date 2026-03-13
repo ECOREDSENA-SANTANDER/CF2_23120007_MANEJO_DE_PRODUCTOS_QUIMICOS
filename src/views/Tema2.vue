@@ -320,7 +320,7 @@
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-botones(
             texto="Pódcast: Mover productos químicos sin mover los riesgos"
-            :audio="require('@/assets/curso/Tema2/podcast.svg')"
+            :audio="require('@/assets/curso/Tema2/podcast.mp4')"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 

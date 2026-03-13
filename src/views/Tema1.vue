@@ -585,7 +585,7 @@
         .col-lg-12
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/GweipfeInM8 " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/_eoZik9sYq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Video. Atención integral de urgencias a víctimas de ataque con agentes químicos
 
       .cajon.color-primario.p-4(data-aos="fade-right")
