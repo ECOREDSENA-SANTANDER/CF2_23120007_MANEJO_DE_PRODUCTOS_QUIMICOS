@@ -207,7 +207,7 @@
           .row.justify-content-center.mb-3
             .col-6.col-md-4
               img(src='@/assets/curso/Tema1/01.svg' alt='')
-          p.text-center.p-3 Clasificación de peligros conforme al Sistema Globalmente Armonizado SGA (inflamabilidad, toxicidad, corrosividad, reactividad, peligros para la salud y el medio ambiente).
+          p.text-center.p-3 Clasificación de peligros conforme al Sistema Globalmente Armonizado - SGA (inflamabilidad, toxicidad, corrosividad, reactividad, peligros para la salud y el medio ambiente).
         .tarjeta.tarjeta1.p-4
           .row.justify-content-center.mb-3
             .col-6.col-md-4
@@ -400,7 +400,7 @@
           .d-flex.align-items-center.mt-4
             img.w-card-icon(src="@/assets/curso/Tema1/ico.svg")
             h3.bg4.py-2.w-card-text Hojas de Datos de Seguridad (HDS)
-      p.mb-4 Las Hojas de Datos de Seguridad denominadas también Ficha de Datos de Seguridad (FDS) o MSDS por sus siglas en inglés (Material Safety Data Sheet), son documentos técnicos normalizados elaborados por el fabricante o importador del producto que contienen información detallada sobre sus propiedades físicas, químicas y toxicológicas, los peligros que representa, las medidas de primeros auxilios y las instrucciones para su manejo, almacenamiento y eliminación seguros.
+      p.mb-4 Las Hojas de Datos de Seguridad denominadas también Ficha de Datos de Seguridad (FDS) o MSDS por sus siglas en inglés (#[em Material Safety Data Sheet]), son documentos técnicos normalizados elaborados por el fabricante o importador del producto que contienen información detallada sobre sus propiedades físicas, químicas y toxicológicas, los peligros que representa, las medidas de primeros auxilios y las instrucciones para su manejo, almacenamiento y eliminación seguros.
       p Conforme al SGA, una HDS completa debe contener 16 secciones estandarizadas. Las más críticas para el proceso de almacenamiento son:
 
       .row.justify-content-center.align-items-center.mb-2
@@ -530,7 +530,7 @@
               td.text-left Clases A, B y C
               td.text-left Versátil y multipropósito. Puede dañar equipos. No usar en espacios confinados.
             tr
-              td.text-left Agente limpio (Halón sustituto)
+              td.text-left Agente limpio (halón sustituto)
               td.text-left B y C
               td.text-left Para equipos sensibles y salas de cómputo. Menor impacto ambiental.
 
