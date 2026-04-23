@@ -496,7 +496,7 @@
               .col-lg-2.mb-4.col-4.col-md-2
                 img(src='@/assets/curso/Tema1/img13.svg')
               .col-lg-12
-                p El fuego en un almacén de productos químicos puede progresar rápidamente y generar efectos catastróficos si no se controla de inmediato. La seguridad contraen estos espacios se fundamenta en tres principios: prevención (eliminar o controlar fuentes de ignición y materiales combustibles), detección temprana (sensores y alarmas) y extinción oportuna (equipos adecuados y personal entrenado).
+                p El fuego en un almacén de productos químicos puede progresar rápidamente y generar efectos catastróficos si no se controla de inmediato. La seguridad en estos espacios se fundamenta en tres principios: prevención (eliminar o controlar fuentes de ignición y materiales combustibles), detección temprana (sensores y alarmas) y extinción oportuna (equipos adecuados y personal entrenado). 
 
       p La selección del agente extintor es crítica en entornos químicos. La siguiente tabla resume los tipos de extintores y su aplicabilidad:
       
